@@ -1,9 +1,9 @@
-#굵게6
-##굵게5
-###굵게4
-####굵게3
-#####굵게2
-######굵게1
+#굵게6  
+##굵게5  
+###굵게4  
+####굵게3  
+#####굵게2  
+######굵게1  
 __진하게__  
 <u>밑줄</u>  
 ~취소~  
@@ -15,9 +15,9 @@ _기울임_
 안함  
 문장  
 줄바꿈  
-함
->들여쓰기 1단
->>들여쓰기 2단
+함  
+>들여쓰기 1단  
+>>들여쓰기 2단  
 
 ```
 import something
@@ -27,15 +27,15 @@ if a>10:
 print(a)
 ```
 
-$\begin{matrix}1&2\\3&4\\ \end{matrix}$
-$\begin{pmatrix}1&2\\3&4\\ \end{pmatrix}$
-$\begin{bmatrix}1&2\\3&4\\ \end{bmatrix}$
-$\begin{Bmatrix}1&2\\3&4\\ \end{Bmatrix}$
-$\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$
-$\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$
+$\begin{matrix}1&2\\3&4\\ \end{matrix}$  
+$\begin{pmatrix}1&2\\3&4\\ \end{pmatrix}$  
+$\begin{bmatrix}1&2\\3&4\\ \end{bmatrix}$  
+$\begin{Bmatrix}1&2\\3&4\\ \end{Bmatrix}$  
+$\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$  
+$\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$  
 
-문장내 $\frac{1+s}{s(s+2)}$ 삽입
-$$\frac{1+s}{s(s+2)}$$
+문장내 $\frac{1+s}{s(s+2)}$ 삽입  
+$$\frac{1+s}{s(s+2)}$$  
 
 ---
 $$
@@ -52,7 +52,7 @@ $$
 
 #**체크박스**
 * [ ] 비어있는 체크박스  
-* [x] 체크된 체크박스
+* [x] 체크된 체크박스  
 
 #**하이퍼링크**
 [바로가기](https://klas.kw.ac.kr/std/lis/evltn/OnlineCntntsStdPage.do)
