@@ -52,16 +52,19 @@ print(a)
 
 * 수식  
 (Latex 문법 참조 [링크1](https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:TeX_%EB%AC%B8%EB%B2%95), [링크2](https://velog.io/@d2h10s/LaTex-Markdown-%EC%88%98%EC%8B%9D-%EC%9E%91%EC%84%B1%EB%B2%95), [링크3](https://itpro.tistory.com/115), [링크4](https://huni0318.github.io/blog/blog-etc/2020-12-21-markdown-tutorial2/))
- * 행렬 삽입  
-$\begin{matrix}1&2\\3&4\\ \end{matrix}$  
-$\begin{pmatrix}1&2\\3&4\\ \end{pmatrix}$  
-$\begin{bmatrix}1&2\\3&4\\ \end{bmatrix}$  
-$\begin{Bmatrix}1&2\\3&4\\ \end{Bmatrix}$  
-$\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$  
-$\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$  
- * 문장내 $\frac{1+s}{s(s+2)}$ 삽입
-   $$\frac{1+s}{s(s+2)}$$  
- * 한번에 삽입
+   + 행렬 삽입
+
+     $\begin{matrix}1&2\\3&4\\ \end{matrix}$
+     $\begin{pmatrix}1&2\\3&4\\ \end{pmatrix}$
+     $\begin{bmatrix}1&2\\3&4\\ \end{bmatrix}$
+     $\begin{Bmatrix}1&2\\3&4\\ \end{Bmatrix}$
+     $\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$
+     $\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$  
+   + 문장내 $\frac{1+s}{s(s+2)}$ 삽입
+     
+     $$\frac{1+s}{s(s+2)}$$
+   + 한번에 삽입
+   
    $$
    \begin{aligned}
    f(x)&=ax^2+bx+c\\
