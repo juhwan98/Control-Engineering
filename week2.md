@@ -27,7 +27,7 @@ _기울임_
 `인라인코드`  
 
 * 문장 줄바꿈  
-markdown문법에서는 띄어쓰기2개를 포함해야 줄바꿈이 가능하다.
+markdown문법에서는 띄어쓰기2개를 포함해야 줄바꿈이 가능하다.  
 문장
 줄바꿈
 안함  
@@ -53,7 +53,8 @@ print(a)
 * 수식  
 (Latex 문법 참조 [링크1](https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:TeX_%EB%AC%B8%EB%B2%95), [링크2](https://velog.io/@d2h10s/LaTex-Markdown-%EC%88%98%EC%8B%9D-%EC%9E%91%EC%84%B1%EB%B2%95), [링크3](https://itpro.tistory.com/115), [링크4](https://huni0318.github.io/blog/blog-etc/2020-12-21-markdown-tutorial2/))  
 
-** 행렬 삽입  
+ * 행렬 삽입
+
 $\begin{matrix}1&2\\3&4\\ \end{matrix}$  
 $\begin{pmatrix}1&2\\3&4\\ \end{pmatrix}$  
 $\begin{bmatrix}1&2\\3&4\\ \end{bmatrix}$  
@@ -61,10 +62,12 @@ $\begin{Bmatrix}1&2\\3&4\\ \end{Bmatrix}$
 $\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$  
 $\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$  
 
-** 문장내 $\frac{1+s}{s(s+2)}$ 삽입  
+ * 문장내 $\frac{1+s}{s(s+2)}$ 삽입  
+
 $$\frac{1+s}{s(s+2)}$$  
 
-** 한번에 삽입  
+ * 한번에 삽입  
+
 $$
 \begin{aligned}
 f(x)&=ax^2+bx+c\\
@@ -82,28 +85,26 @@ url 문법에서 앞에 느낌표를 붙힌다는 차이가 있다. url에 링�
   * [ ] 비어있는 체크박스  
   * [x] 체크된 체크박스  
 
-* 하이퍼링크  
-'[]'안에 대체할 텍스트를 넣고'()'안에 url을 지정해 하이퍼링크를 만들수 있다.'<>'안에 url을 직접넣어 바로 하이퍼링크를 할 수도 있다.  
-#**하이퍼링크**
-[바로가기](https://klas.kw.ac.kr/std/lis/evltn/OnlineCntntsStdPage.do)
-<https://klas.kw.ac.kr/std/lis/evltn/OnlineCntntsStdPage.do>
+* 하이퍼링크
+  '[]'안에 대체할 텍스트를 넣고'()'안에 url을 지정해 하이퍼링크를 만들수 있다.'<>'안에 url을 직접넣어 바로 하이퍼링크를 할 수도 있다.
+  [바로가기](https://klas.kw.ac.kr/std/lis/evltn/OnlineCntntsStdPage.do)
+  <https://klas.kw.ac.kr/std/lis/evltn/OnlineCntntsStdPage.do>
 
-* 수평선  
-'---'2개를 입력하여 수평선을 나타내어 문서를 나눌 수 있다.  
-#**수평선**
-***
-___
+* 수평선
+  '---'2개를 입력하여 수평선을 나타내어 문서를 나눌 수 있다.
+  ***
+  ___
 
-* 표  
-표의 목록이름과 정렬기준을 지정할 수 있다.
+* 표
+  표의 목록이름과 정렬기준을 지정할 수 있다.
 
 |1열|2열|3열|
 |:---|---:|:---:|
 |바디1|바디2|바디3|
 |바디4|바디5|바디6|
 
-* 목록  
-'*, +, -'를 이용해 목록표시를 만들 수 있다. (tab)키를 함께 활용하면 다른 목록표시를 사용가능하다.   
+* 목록
+  '*, +, -'를 이용해 목록표시를 만들 수 있다. (tab)키를 함께 활용하면 다른 목록표시를 사용가능하다.   
 
 * 사과
 * 오렌지
