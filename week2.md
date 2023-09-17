@@ -62,12 +62,12 @@ $\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$
    + 문장내 $\frac{1+s}{s(s+2)}$ 삽입
      $$\frac{1+s}{s(s+2)}$$
    + 한번에 삽입
-   $$
-   \begin{aligned}
-   f(x)&=ax^2+bx+c\\
-   g(x)&=Ax^4
-   \end{aligned}
-   $$
+      $$
+      \begin{aligned}
+      f(x)&=ax^2+bx+c\\
+      g(x)&=Ax^4
+      \end{aligned}
+      $$
 
 * 그림  
 url 문법에서 앞에 느낌표를 붙힌다는 차이가 있다. url에 링크된 사진을 넣는다.  
