@@ -1,13 +1,17 @@
+# 2주차_Markdown 기초  
 광운대학교 전기공학과 2018732062 박주환
+
 ---
-# 구글코랩(Google Colab)
+
+## 구글코랩(Google Colab)
 * 구글코랩이란?  
 구글에서 제공하는 클라우드 기반의 Jupyter notebook 개발 환경이다. 머신러닝기법을 프로그래밍 할 수 있고 그 결과 까지 확인이 가능하다. **GPU**의 무료 엑세스를 제공하기 때문에 웬만한 개인PC보다 성능이 좋고 빠르다.  
 * 구글 계정 마운트 하는 법  
 __구글 드라이브__ 에 마운트 해놓으면 자신이 만든 파일을 관리하기 쉬워지므로 자신의 구글 계정을 이용하여 마운트하자. 좌측에 파일 아이콘을 클릭한 후 드라이브 마운트 아이콘을 클릭해주면 된다.
 
 ---
-# 마크다운 문법
+
+## 마크다운 문법
 * 타이틀  
 '#'의 갯수에 따라 제목의 크기를 조절할 수 있다. 적을수록 큰 글씨.
 #굵게6  
@@ -53,7 +57,7 @@ print(a)
 * 수식  
 (Latex 문법 참조 [링크1](https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:TeX_%EB%AC%B8%EB%B2%95), [링크2](https://velog.io/@d2h10s/LaTex-Markdown-%EC%88%98%EC%8B%9D-%EC%9E%91%EC%84%B1%EB%B2%95), [링크3](https://itpro.tistory.com/115), [링크4](https://huni0318.github.io/blog/blog-etc/2020-12-21-markdown-tutorial2/))
 
-1.행렬  
+행렬  
 
 $$
 \begin{matrix}
@@ -81,14 +85,14 @@ $$
 3 & 4 \\
 \end{Vmatrix}$$
 
-2.극한  
+극한  
 $\displaystyle\lim_{s\rightarrow\infty}{s^2}$
 $\displaystyle\sum_{i=0}^{\infty}{(y_i-t_i)^2}$
 
-3.문장내 $\frac{1+s}{s(s+2)}$ 삽입
+문장내 $\frac{1+s}{s(s+2)}$ 삽입
 $$\frac{1+s}{s(s+2)}$$
 
----
+여러줄 출력
 
 $$
 \begin{aligned}
@@ -97,7 +101,6 @@ g(x)&=Ax^4
 \end{aligned}
 $$
 
----
 * 그림  
 url 문법에서 앞에 느낌표를 붙힌다는 차이가 있다. url에 링크된 사진을 넣는다.  
 
