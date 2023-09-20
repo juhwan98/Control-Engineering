@@ -2,17 +2,20 @@
 광운대학교 전기공학과 2018732062 박주환
 
 ---
-## 선형화  
-* _Lin. apprx. of physical system_  
-  <Linearity = Additivity +Homogeneity>  
-  사진
+## 1-1 ) Lin. apprx. of physical system
+* Linearity  
+  _Linearity = Additivity + Homogeneity_  
+  * Additivity
+  * Homogeneit  
+* Time Invariance
+* Linear Approcimation  
   
-## 라플라스변환
-
+## 1-2 ) The Laplace transform
+표
+* Matlab
+  * syms
+  * laplace
+  * ilaplace
 ---
-## Matlab 기초명령  
-* ㅁ
-* ㄴ
-* ㅇ
-* 
-## Matlab 편집기
+## 2-1 ) Matlab 기초명령
+## 2-2 ) Matlab 편집기
